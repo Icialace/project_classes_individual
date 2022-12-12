@@ -1,0 +1,311 @@
+Output:
+
+Welcome to Alberta Hospital (AH) Management System.
+    please select from the following options, or select 0 to stop:
+    1 - Doctors
+    2 - Facilities
+    3 - Laboratories
+    4 - Patients
+1
+Doctors Menu
+    1 - Display Doctors List
+    2 - Search for Doctor by ID
+    3 - Search for Doctor By Name
+    4 - Add Doctor
+    5 - Edit Doctor Info
+    6 - Back to the Main Menu
+1
+  ID  Name       Specialization    Work Hours    Qualifications      Room Number
+----  ---------  ----------------  ------------  ----------------  -------------
+  21  Dr.Gody    ENT               5AM-11AM      MBBS,MD                      17
+  32  Dr.Vikram  Physician         10PM-3AM      MBBS,MD                      45
+  17  Dr.Amy     Surgeon           8PM-2AM       BDM                           8
+  33  Dr.David   Artho             10AM-4PM      MBBS,MS                      40
+ 123  Dr. Ross   Headaches         8PM-10AM      MST                         102
+  66  Dr. Mike   Heart             9AM-5PM       MS                            2 
+
+Returning Back to Previous Menu
+
+Doctors Menu
+    1 - Display Doctors List
+    2 - Search for Doctor by ID
+    3 - Search for Doctor By Name
+    4 - Add Doctor
+    5 - Edit Doctor Info
+    6 - Back to the Main Menu
+2
+Enter Doctor ID: 66
+
+
+  ID  Name      Specialization    Work Hours    Qualifications      Room Number
+----  --------  ----------------  ------------  ----------------  -------------
+  66  Dr. Mike  Heart             9AM-5PM       MS                            2 
+
+Doctors Menu
+    1 - Display Doctors List
+    2 - Search for Doctor by ID
+    3 - Search for Doctor By Name
+    4 - Add Doctor
+    5 - Edit Doctor Info
+    6 - Back to the Main Menu
+3
+Enter the doctor's name: Dr.David
+
+
+  ID  Name      Specialization    Work Hours    Qualifications      Room Number
+----  --------  ----------------  ------------  ----------------  -------------
+  33  Dr.David  Artho             10AM-4PM      MBBS,MS                      40 
+
+Doctors Menu
+    1 - Display Doctors List
+    2 - Search for Doctor by ID
+    3 - Search for Doctor By Name
+    4 - Add Doctor
+    5 - Edit Doctor Info
+    6 - Back to the Main Menu
+2
+Enter Doctor ID: 20
+
+
+This doctor's ID does not exist in the system
+
+Doctors Menu
+    1 - Display Doctors List
+    2 - Search for Doctor by ID
+    3 - Search for Doctor By Name
+    4 - Add Doctor
+    5 - Edit Doctor Info
+    6 - Back to the Main Menu
+3
+Enter the doctor's name: Dr. Tom
+
+
+This doctor's name does not exist in the system
+
+Doctors Menu
+    1 - Display Doctors List
+    2 - Search for Doctor by ID
+    3 - Search for Doctor By Name
+    4 - Add Doctor
+    5 - Edit Doctor Info
+    6 - Back to the Main Menu
+4
+Enter the ID of the new doctor: 62
+Enter the doctor's name: Dr. Smith
+Enter the doctor's specialization: Heart
+Enter the doctor's work hours(e,g, 7AM-10PM): 6AM-11AM
+Enter the doctor's qualifications: PHD
+Enter the doctor's room number: 12
+
+
+Doctors Menu
+    1 - Display Doctors List
+    2 - Search for Doctor by ID
+    3 - Search for Doctor By Name
+    4 - Add Doctor
+    5 - Edit Doctor Info
+    6 - Back to the Main Menu
+5
+Enter the ID of the doctor who's information you would like to edit: 66
+Enter new doctor's name: Dr. Mike Kale
+Enter new doctor's specialization: Heart
+Enter new doctor's work hours(e,g, 7AM-10PM): 9AM-3PM
+Enter new doctor's qualification: MS
+Enter new doctor's room number: 2
+
+
+Doctors Menu
+    1 - Display Doctors List
+    2 - Search for Doctor by ID
+    3 - Search for Doctor By Name
+    4 - Add Doctor
+    5 - Edit Doctor Info
+    6 - Back to the Main Menu
+6
+Returning to Previous Menu
+
+Welcome to Alberta Hospital (AH) Management System.
+    please select from the following options, or select 0 to stop:
+    1 - Doctors
+    2 - Facilities
+    3 - Laboratories
+    4 - Patients
+2
+Facilities Menu
+    1 - Display Facilities List
+    2 - Add Facility
+    3 - Back to the Main Menu
+1
+Hospital Facilities
+---------------------  --
+Ambulance
+Admit Facility
+Canteen
+Emergency 
+
+Facilities Menu
+    1 - Display Facilities List
+    2 - Add Facility
+    3 - Back to the Main Menu
+2
+Enter Facility Name: Covid Care
+
+
+Facilities Menu
+    1 - Display Facilities List
+    2 - Add Facility
+    3 - Back to the Main Menu
+1
+Hospital Facilities
+---------------------  --
+Ambulance
+Admit Facility
+Canteen
+Emergency
+Covid Care 
+
+Facilities Menu
+    1 - Display Facilities List
+    2 - Add Facility
+    3 - Back to the Main Menu
+3
+Returning to Previous Menu
+
+Welcome to Alberta Hospital (AH) Management System.
+    please select from the following options, or select 0 to stop:
+    1 - Doctors
+    2 - Facilities
+    3 - Laboratories
+    4 - Patients
+3
+Laboratory Menu
+    1 - Display Laboratories List
+    2 - Add Laboratory
+    3 - Back to the Main Menu
+1
+Laboratory    Cost
+------------  ------
+Lab1          $800
+Lab2          $1200
+Lab3          $500
+Lab4          $50 
+
+Laboratory Menu
+    1 - Display Laboratories List
+    2 - Add Laboratory
+    3 - Back to the Main Menu
+2
+Lab name: Lab5
+Lab cost(e.g., for $800, enter 800): 250
+Laboratory Menu
+    1 - Display Laboratories List
+    2 - Add Laboratory
+    3 - Back to the Main Menu
+3
+Returning to Previous Menu
+
+Welcome to Alberta Hospital (AH) Management System.
+    please select from the following options, or select 0 to stop:
+    1 - Doctors
+    2 - Facilities
+    3 - Laboratories
+    4 - Patients
+4
+Patients Menu
+    1 - Display Patients List
+    2 - Search for Patient by ID
+    3 - Add Patient
+    4 - Edit Patient Info
+    5 - Back to main Menu
+1
+  id  Name    Disease    Gender      Age
+----  ------  ---------  --------  -----
+  12  Pankaj  Cancer     Male         30
+  13  Sumit   Cold       Male         23
+  14  Alok    Malaria    Male         45
+  15  Ravi    Diabetes   Male         25 
+
+Patients Menu
+    1 - Display Patients List
+    2 - Search for Patient by ID
+    3 - Add Patient
+    4 - Edit Patient Info
+    5 - Back to main Menu
+2
+Enter patient's ID: 16
+
+
+This patient's ID does not exist in the system
+
+Patients Menu
+    1 - Display Patients List
+    2 - Search for Patient by ID
+    3 - Add Patient
+    4 - Edit Patient Info
+    5 - Back to main Menu
+2
+Enter patient's ID: 15
+
+
+  id  Name    Disease    Gender      Age
+----  ------  ---------  --------  -----
+  15  Ravi    Diabetes   Male         25 
+
+Patients Menu
+    1 - Display Patients List
+    2 - Search for Patient by ID
+    3 - Add Patient
+    4 - Edit Patient Info
+    5 - Back to main Menu
+3
+New patient's ID: 16
+New patient's name: Mary
+New patient's disease: Cancer
+New patient's gender: Female
+New patient's age: 55
+Patients Menu
+    1 - Display Patients List
+    2 - Search for Patient by ID
+    3 - Add Patient
+    4 - Edit Patient Info
+    5 - Back to main Menu
+4
+Enter the ID of the patient who's information you would like to edit: 13
+Enter new patient's name: Sumit
+Enter new patient's disease: Cold&Flu
+Enter new patient's gender: Male
+Enter new patient's age: 23
+
+
+Patients Menu
+    1 - Display Patients List
+    2 - Search for Patient by ID
+    3 - Add Patient
+    4 - Edit Patient Info
+    5 - Back to main Menu
+1
+  id  Name    Disease    Gender      Age
+----  ------  ---------  --------  -----
+  12  Pankaj  Cancer     Male         30
+  13  Sumit   Cold&Flu   Male         23
+  14  Alok    Malaria    Male         45
+  15  Ravi    Diabetes   Male         25
+  16  Mary    Cancer     Female       55 
+
+Patients Menu
+    1 - Display Patients List
+    2 - Search for Patient by ID
+    3 - Add Patient
+    4 - Edit Patient Info
+    5 - Back to main Menu
+5
+Returning to Previous Menu
+
+Welcome to Alberta Hospital (AH) Management System.
+    please select from the following options, or select 0 to stop:
+    1 - Doctors
+    2 - Facilities
+    3 - Laboratories
+    4 - Patients
+0
+Closing Alberta Hospital(AH) Management System

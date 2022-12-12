@@ -1,0 +1,6 @@
+Laboratory_Cost
+Lab1_$800
+Lab2_$1200
+Lab3_$500
+Lab4_$50
+Lab5_$250
